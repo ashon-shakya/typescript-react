@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Specifies the ECMAScript target version.
+    "module": "commonjs", // Specifies the module code generation.
+    "strict": true, // Enables all strict type-checking options.
+    "jsx": "react", // Specifies JSX code generation.
+    "esModuleInterop": true, // Enables interoperability between CommonJS and ES Modules.
+    "skipLibCheck": true, // Skips type checking of declaration files.
+    "forceConsistentCasingInFileNames": true, // Disallows inconsistently-cased references to the same file.
+    "moduleResolution": "node", // Specifies how modules are resolved.
+    "resolveJsonModule": true, // Includes modules imported with .json extension.
+    "isolatedModules": true, // Ensures that each file is treated as a module.
+    "noEmit": false // Prevents the compiler from emitting output files.
+  },
+  "include": ["src"], // Specifies the paths to include in the program.
+  "exclude": ["node_modules"] // Specifies the paths to exclude from the program.
+}
